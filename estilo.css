@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body{
+    color: white;
+}
+
 a{
     text-decoration: none;
     font-weight: bold;
@@ -140,5 +144,42 @@ button:focus{
         font-size: 1.2em;
         margin-left: -12px;
     }
+
+    .img_capa{
+        min-width: 200px;
+        margin-left: 70px;
+    }
+
+    #txt_principal{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .botão-alinhamento{
+       padding-left: 110px;
+    }
  }
  /*--fim header--*/
+
+#txt_principal{
+    font-size: 3.6em;
+}
+
+#botão_customizado{
+    background: purple;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 25px 15px 25px;
+    font-size: 1.1em;
+}
+
+#botão_customizado:hover{
+    background: rgb(85, 0, 85);
+}
+
+#linha{
+    border: 1px solid purple;
+    margin-top: 70px;
+    margin-inline: 50px;
+}
+
