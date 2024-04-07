@@ -154,16 +154,17 @@ button:focus{
     #txt_principal{
         text-align: center;
         margin-top: 30px;
+        font-size: 1em;
     }
 
     .botão-alinhamento{
-       padding-left: 110px;
+       padding-left: 16%;
     }
  }
  /*--fim header--*/
 
 #txt_principal{
-    font-size: 3.6em;
+    font-size: 3.5em;
 }
 
 #botão_customizado{
@@ -172,6 +173,7 @@ button:focus{
     border-radius: 20px;
     padding: 15px 25px 15px 25px;
     font-size: 1.1em;
+    border: 1px solid red;
 }
 
 #botão_customizado:hover{
