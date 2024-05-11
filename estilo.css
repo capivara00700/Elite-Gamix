@@ -33,6 +33,7 @@ button:focus{
     outline: none;
 }
 
+
 /*--início header--*/
 nav a{
     font-weight: bold;
@@ -173,7 +174,8 @@ nav a{
     }
 
     .botão-alinhamento{
-       padding-left: 16%;
+       display: flex;
+       justify-content: center;
     }
  }
  /*--fim header--*/
