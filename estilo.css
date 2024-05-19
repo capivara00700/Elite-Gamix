@@ -1,4 +1,4 @@
-/*formatações gerais*/
+/*formatações gerais Início*/
 *{
     margin: 0px;
     padding: 0px;
@@ -32,6 +32,8 @@ a:hover{
 button:focus{
     outline: none;
 }
+
+/*formatações gerais Fim*/
 
 
 /*--início header--*/
@@ -178,8 +180,10 @@ nav a{
        justify-content: center;
     }
  }
- /*--fim header--*/
+/*--fim header--*/
 
+
+/*Página inícial Início*/
 #txt_principal{
     font-size: 3.40em;
 }
@@ -195,10 +199,22 @@ nav a{
 #botão_customizado:hover{
     background: rgb(85, 0, 85);
 }
+/*Página inícial Fim*/
 
+
+/*linha Início*/
 #linha{
     border: 1px solid purple;
     margin-top: 70px;
     margin-inline: 50px;
 }
+/*linha Fim*/
 
+
+/*carrossel Início*/
+.btn-custom{
+    border-radius: 70px;
+    background: gray;
+}
+
+/*carrossel Fim*/
