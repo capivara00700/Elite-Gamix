@@ -217,4 +217,11 @@ nav a{
     background: gray;
 }
 
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    z-index: 2;
+}
 /*carrossel Fim*/
