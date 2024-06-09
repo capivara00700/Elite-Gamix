@@ -179,6 +179,9 @@ nav a{
        display: flex;
        justify-content: center;
     }
+
+    
+
  }
 /*--fim header--*/
 
@@ -225,3 +228,10 @@ nav a{
     z-index: 2;
 }
 /*carrossel Fim*/
+
+/*Rodapé Início*/
+.alinhamento{
+    display: flex;
+    justify-content: end;
+}
+/*Rodapé Fim*/
